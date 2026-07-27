@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+.profile-image {
+     border-radius: 12px;
+     width: 150px;
+     height: 150px;
+     object-fit: cover;
+     border: 2px solid #000;
+ }
+
+ .profile-name {
+     font-size: 100px;
+     margin: 0;
+     font-family: sans-serif, serif;
+ }
+
+ .profile {
+     text-align: center;
+     margin-top: 50px;
+     padding: 20px;
+     border-radius: 15px;
+     background: linear-gradient(#fff, #fff) padding-box,
+                 linear-gradient(#000, #5a5a5a) border-box;
+     border: 5px solid transparent;
+ }
+
+.profile-description {
+        font-size: 24px;
+        margin-top: 10px;
+        font-family: sans-serif;
+}
+
+.profile-container {
+        min-height: 100vh;
+        background-image: linear-gradient(to bottom, #00000083, #000000);
+}
+
+.header {
+    background-color: #000;
+    padding: 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.header nav a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 16px 32px;
+    transition: color 0.2s, background-color 0.2s;
+    text-transform: uppercase;
+}
+
+.header nav a:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.about-description {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.about-list {
+    font-size: 16px;
+    margin-top: 4px;
+    font-family: sans-serif;
+}
+
+.about{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 5px solid #000;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+
+.skills{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 5px solid #000;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 2px;
+}
+
+.skills-grid > * {
+    border: 3px solid #0000003f;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: gradient(to bottom, #fc0000, #f0f0f0);
+    margin: auto;
+    border-left: 3px solid #00000063;
+    border-right: 3px solid #00000063;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.title-sports {
+    font-size: 70px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: sans-serif, serif;
+}
+
+.sport-box-running-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 8px;
+    font-family: sans-serif;
+}
+
+.sport-box-triathlon-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 8px;
+    font-family: sans-serif;
+}
+.sport-box-running-description{
+    font-size: 20px;
+    margin-top: 7px;
+    font-family: sans-serif;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 400px;
+    flex: 1 1 300px;
+}
+
+.sport-box-triathlon-description{
+    font-size: 20px;
+    margin-top: 7px;
+    font-family: sans-serif;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 200px;
+}
+
+.sport-row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.races{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #000;
+    max-width: 300px;
+    font-family: sans-serif;
+    flex-shrink: 0;
+    order: 2;
+}
+
+.sport-box-running-description {
+    order: 1;
+}
+
+.sport-box-triathlon-description {
+    order: 1;
+}
+
+.races-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 3px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.projects-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
